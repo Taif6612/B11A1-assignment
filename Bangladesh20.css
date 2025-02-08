@@ -1,0 +1,143 @@
+/* Bangladesh20.css - Main Stylesheet */
+
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header */
+/* Update your header/nav CSS */
+/* Replace existing header/nav styles with these */
+header {
+    background: transparent;
+    padding: 20px 5%;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    transition: all 0.3s ease;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header-logo {
+    font-family: 'Fira Sans', serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #004d40;
+    text-decoration: none;
+    margin-right: auto;
+}
+
+/* For completely invisible nav bar */
+/* Add/Modify these styles in your CSS */
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: transparent;
+    padding: 25px 5%;
+    z-index: 1000;
+    transition: all 0.3s ease;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header-logo {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #004d40;
+    text-decoration: none;
+    margin-right: auto;
+}
+
+header button {
+    background: transparent;
+    color: #004d40;
+    border: 2px solid #004d40;
+    padding: 8px 25px;
+    border-radius: 25px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+header button:hover {
+    background: #004d40;
+    color: white;
+}
+
+/* Add this to prevent content overlap */
+main {
+    margin-top: 80px; /* Adjust based on your header height */
+}
+/* Banner Section */
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #d4ede1;
+    padding: 50px;
+    border-radius: 10px;
+    margin-top: 130px;
+}
+
+.banner-text {
+    max-width: 50%;
+}
+
+.banner-text h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #004d40;
+}
+
+.banner-image img {
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Buttons */
+
+
+.button:hover {
+    background: #004d40;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .banner {
+        flex-direction: column;
+        text-align: center;
+    }
+    .banner-text {
+        max-width: 100%;
+    }
+}
