@@ -1,74 +1,175 @@
-/* styles.css */
+/* nav styles */
+/* import fonts aswell */
 
-/* Additional Global Overrides & Extra Styling */
+/* fonts start */
+.fira-sans-thin {
+    font-family: "Fira Sans", serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+.fira-sans-extralight {
+    font-family: "Fira Sans", serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+.fira-sans-light {
+    font-family: "Fira Sans", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
 
-/* Footer Styles */
-footer {
-    background: #222;
-    color: #fff;
-    text-align: center;
-    padding: 20px 0;
-    margin-top: 40px;
+.fira-sans-regular {
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+.fira-sans-medium {
+    font-family: "Fira Sans", serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+.fira-sans-semibold {
+    font-family: "Fira Sans", serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+.fira-sans-bold {
+    font-family: "Fira Sans", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+.fira-sans-extrabold {
+    font-family: "Fira Sans", serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+.fira-sans-black {
+    font-family: "Fira Sans", serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+.fira-sans-thin-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+.fira-sans-extralight-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 200;
+    font-style: italic;
+  }
+  
+.fira-sans-light-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+.fira-sans-regular-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+.fira-sans-medium-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+.fira-sans-semibold-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+.fira-sans-bold-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+.fira-sans-extrabold-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 800;
+    font-style: italic;
+  }
+  
+.fira-sans-black-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+ /*fonts end here  */
+
+
+ .btn-primary {
+    background-color: transparent;
+    color: #00796b;
+    border: 1px solid #00796b; /* Sets a 2px solid border */
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
-footer p {
-    margin: 10px 0;
+
+.dark-2{
+    color: #0000007a;
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
 }
 
-/* Social Icons in Footer */
-.social-icons {
-    margin-top: 10px;
+.header-logo{
+    font-weight: bold;
+    font-size: 32px;
+
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 200px;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.social-icons img {
-    width: 30px;
-    margin: 0 10px;
-    transition: transform 0.3s ease;
+nav ul li{
+    list-style: none;
+    display: inline;
 }
-
-.social-icons img:hover {
-    transform: scale(1.1);
-}
-
-/* Additional spacing for sections */
-section {
-    margin-bottom: 40px;
-}
-
-/* Global Link Styling Override */
-a {
-    color: inherit;
+nav ul li a{
     text-decoration: none;
+    color: #000;
+
+}   
+
+.banner{
+    display: flex;
+    text-decoration: none;
+    text-decoration-line: none;
+    justify-content: space-between;
 }
 
-a:hover {
-    text-decoration: underline;
-}
 
-/* Responsive Adjustments */
-@media (max-width: 768px) {
-    /* Adjust banner for smaller screens */
-    .banner {
-        flex-direction: column;
-        text-align: center;
-    }
-    .banner-text, .banner-image {
-        width: 100%;
-    }
-    
-    /* Stack donation options vertically */
-    .donation-options {
-        flex-direction: column;
-    }
-    
-    /* Stack news, vision, and pillar cards vertically */
-    .news-cards, .vision-cards, .pillars-container {
-        flex-direction: column;
-        align-items: center;
-    }
-    
-    .news-card, .vision-card, .pillar-card {
-        width: 90%;
-        margin-bottom: 20px;
-    }
-}
+
+
+

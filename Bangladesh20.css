@@ -22,15 +22,14 @@ body {
 /* Header */
 /* Update your header/nav CSS */
 /* Replace existing header/nav styles with these */
-header {
+/* header {
     background: transparent;
     padding: 20px 5%;
     position: fixed;
     width: 100%;
     top: 0;
     z-index: 1000;
-    transition: all 0.3s ease;
-}
+} */
 
 nav {
     display: flex;
@@ -56,8 +55,9 @@ header {
     top: 0;
     left: 0;
     right: 0;
+    bottom: 0;
     background: transparent;
-    padding: 30px;
+    padding-bottom: 1000000px;
 }
 
 nav {

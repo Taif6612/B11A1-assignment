@@ -1,16 +1,14 @@
 /* index.css */
 
 /* Banner Section Additional Styles */
-.banner {
-    margin: 20px 0;
-}
+
 
 /* Donate Section */
 #donate {
     text-align: center;
     background: #e8f5e9;
     padding: 40px 10%;
-    margin-top: 20px;
+    /* margin-top: 20px; */
 }
 
 .donation-options {
