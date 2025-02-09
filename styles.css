@@ -111,6 +111,16 @@
   }
  /*fonts end here  */
 
+.btn-secondary {
+    background-color: #00796b;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
 
  .btn-primary {
     background-color: transparent;
@@ -126,7 +136,8 @@
 
 .dark-2{
     color: #0000007a;
-
+    font-size: 24px;
+    font-weight: 500;
 }
 nav{
     display: flex;
@@ -144,7 +155,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 10px 200px;
+    margin: 0px 30px;
 }
 nav ul{
     display: flex;
@@ -161,12 +172,25 @@ nav ul li a{
     color: #000;
 
 }   
+.banner-content{
+        padding-left: 45px;
+        /* padding-right: 598px; */
+    
+}
 
 .banner{
     display: flex;
+    background-color: #C6E4D6;
     text-decoration: none;
     text-decoration-line: none;
     justify-content: space-between;
+    border-radius: 50px;
+    align-items:center;
+    padding: 50px 30px;
+    justify-content: space-between;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 24px;
 }
 
 
