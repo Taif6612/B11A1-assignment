@@ -111,12 +111,17 @@
   }
  /*fonts end here  */
 
+body{
+background-color: #F5F5F5;
+}
+
 .btn-secondary {
     background-color: #00796b;
     color: #fff;
     border: none;
     padding: 10px 20px;
-    font-size: 1rem;
+    font-size: 16px;
+    font-weight: 600;
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease, transform 0.3s ease;
@@ -193,7 +198,40 @@ nav ul li a{
     font-size: 24px;
 }
 
+.pillars-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 30px;
+    padding: 50px 30px;
+    background-color: transparent;
+    border-radius: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 24px;
+    text-align: left;
+    
+}
 
+.pillar-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start; 
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    padding: 30px 30px;
+    margin: 0px 20px;
+    font-size: 24px;
+    text-align: left;
+}
+
+
+.lightb{
+    display: flex;
+    align-self: flex-start;
+}
 
 
 
