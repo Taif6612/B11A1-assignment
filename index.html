@@ -18,7 +18,7 @@
     <!-- Navbar -->
     <header>
         <nav class="navbar">
-            <!-- use span if you need to modify anything in between the words or change colour of something -->
+
             <h3 class="header-logo">Bangladesh 2.0</h3>
             <ul>
                 <li><a href =""><button class="btn-primary">Sign In</button></a></li>
@@ -106,14 +106,12 @@
         </div>
     </section>
 
-    <!-- Opinion Section -->
+
 
 <!-- Opinion Section -->
 <section class="opinion">
     <h2>Your Opinion Matters</h2>
-    <!-- Outer Card Container -->
-    <div class="opinion-card">
-      <!-- Optional inner wrapper to control table width -->
+    <div class="opinion-card">   
       <div class="opinion-table-wrapper">
         <table>
           <thead>
@@ -168,63 +166,116 @@
   
   
 
-    <!-- Recent News -->
-    <section class="news">
-        <h2>Recent News</h2>
-        <div class="news-cards">
-            <div class="news-card">
-                <img src="/assets/satelite.png" alt="Satellite">
-                <div class="news-content">
-                    <h3>Bangladesh Launches New Satellite</h3>
-                    <p><img src="/assets/al-jazeera.png" alt="Al Jazeera"> AL JAZEERA | 05/01/2025</p>
-                    <p>Not until the creation and maintenance of decent conditions...</p>
-                    <button>Read More</button>
-                </div>
+
+<!-- Recent News Section -->
+<section class="news">
+    <h2>Recent News</h2>
+    
+    <div class="news-cards">
+      
+      <!-- First News Card -->
+      <div class="news-card">
+        <!-- Left: Image -->
+        <div class="news-image">
+          <img src="/assets/satelite.png" alt="Satellite">
+        </div>
+        <!-- Right: Content -->
+        <div class="news-content">
+          <h3>Bangladesh Launches New Satellite</h3>
+          <div class="news-meta">
+            <img src="/assets/al-jazeera.png" alt="Al Jazeera Logo" class="news-logo">
+            <div class="news-date-time">
+              <span class="news-date">05/01/2025</span>
+              <span class="news-time">12:00 PM</span> 
             </div>
-            <div class="news-card">
-                <img src="/assets/satelite.png" alt="Satellite">
-                <div class="news-content">
-                    <h3>Bangladesh Launches New Satellite</h3>
-                    <p><img src="/assets/al-jazeera.png" alt="Al Jazeera"> AL JAZEERA | 05/01/2025</p>
-                    <p>Not until the creation and maintenance of decent conditions...</p>
-                    <button>Read More</button>
-                </div>
+          </div>
+          <p class="news-description">
+            Not until the creation and maintenance of decent conditions...
+          </p>
+          <button class="news-readmore">Read More</button>
+        </div>
+      </div>
+      
+      <!-- Second News Card (Example with placeholder text) -->
+      <div class="news-card">
+        <!-- Left: Image -->
+        <div class="news-image">
+          <img src="/assets/satelite.png" alt="Satellite">
+        </div>
+        <!-- Right: Content -->
+        <div class="news-content">
+          <h3>Another News Title</h3>
+          <div class="news-meta">
+            <img src="/assets/al-jazeera.png" alt="Al Jazeera Logo" class="news-logo">
+            <div class="news-date-time">
+              <span class="news-date">05/02/2025</span>
+              <span class="news-time">03:30 PM</span>
             </div>
+          </div>
+          <p class="news-description">
+            A brief description of the news goes here...
+          </p>
+          <button class="news-readmore">Read More</button>
         </div>
-    </section>
+      </div>
+      
+    </div>
+  </section>
+  
 
-    <!-- Donate Section -->
-    <section class="donate">
-        <h2>Donate Today</h2>
-        <p>Bangladesh 2.0 aims to redefine the nation's trajectory.</p>
-        <div class="donate-options">
-            <button>100 Taka</button>
-            <button>200 Taka</button>
-            <button>500 Taka</button>
-            <button>1000 Taka</button>
-        </div>
-        <input type="text" placeholder="Other Amount (Taka)">
-        <button>Donate Now</button>
-    </section>
 
-    <!-- Newsletter -->
-    <section class="newsletter">
-        <h2>Subscribe Newsletter</h2>
-        <p>Bangladesh 2.0 aims to redefine the nation's trajectory.</p>
-        <input type="email" placeholder="Enter your email here">
-        <button>Subscribe</button>
-        <p>We promise not to spam you!</p>
-    </section>
+<!-- Donate Section -->
+<section class="donate">
+    <h2>Donate Today</h2>
+    <p class="donate-description">
+      Bangladesh 2.0 aims to redefine the nation's trajectory.
+    </p>
+    
+    <!-- Container for Donation Options and Custom Input -->
+    <div class="donate-amounts">
+      <div class="donate-options">
+        <button class="donate-card">100 Taka</button>
+        <button class="donate-card highlight">200 Taka</button>
+        <button class="donate-card">500 Taka</button>
+        <button class="donate-card">1000 Taka</button>
+      </div>
+      <input class="donate-other" type="number" placeholder="Other Amount (Taka)">
+    </div>
+    <button class="donate-now">Donate Now</button>
+  </section>
+  
 
-    <!-- Footer -->
-    <footer>
-        <p>Bangladesh 2.0</p>
-        <div class="social-icons">
-            <img src="/assets/facebook.png" alt="Facebook">
-            <img src="/assets/x.png" alt="Twitter">
-            <img src="/assets/instagram.png" alt="Instagram">
-        </div>
-    </footer>
+<!-- Subscribe Newsletter Section -->
+<section class="subscribe-card">
+    <h2>Subscribe Newsletter</h2>
+    <p class="subscribe-description">
+      Bangladesh 2.0 aims to redefine the nation's trajectory.
+    </p>
+  
+    <!-- Email Input and Subscribe Button -->
+    <div class="subscribe-input-container">
+      <input class="subscribe-input" type="email" placeholder="Enter your email here">
+      <button class="subscribe-button">Subscribe</button>
+    </div>
+  
+    <!-- Disclaimer Text -->
+    <p class="subscribe-note">We promise not to spam you!</p>
+  </section>
+  
+
+
+<!-- Footer Section -->
+<footer class="footer">
+    <h2 class="footer-title">Bangladesh 2.0</h2>
+    
+    <div class="footer-socials">
+      <a href="#" aria-label="Facebook"><img src="/assets/facebook.png" alt="Facebook"></a>
+      <a href="#" aria-label="Twitter"><img src="/assets/x.png" alt="Twitter"></a>
+      <a href="#" aria-label="Instagram"><img src="/assets/instagram.png" alt="Instagram"></a>
+    </div>
+  </footer>
+  
+  
 
 </body>
 </html>

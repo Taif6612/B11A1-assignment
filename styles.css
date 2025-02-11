@@ -492,3 +492,294 @@ nav ul li a{
   text-align: left;
 }
 
+
+/* Recent News Section Container */
+.news {
+  width: 90%;
+  max-width: 1200px;
+  margin: 40px auto;
+  text-align: left;
+}
+
+/* Section Title */
+.news h2 {
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+
+/* News Cards Container */
+.news-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Individual News Card */
+.news-card {
+  display: flex;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Left Image Container */
+.news-image {
+  flex: 0 0 250px;  
+  overflow: hidden;
+}
+
+.news-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Right Content Container */
+.news-content {
+  flex: 1;
+  padding: 20px;
+}
+
+/* News Title */
+.news-content h3 {
+  font-size: 24px;
+  margin: 0 0 10px;
+}
+
+/* Metadata: Logo, Date & Time */
+.news-meta {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.news-logo {
+  width: 40px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.news-date-time {
+  display: flex;
+  gap: 10px;
+  font-size: 14px;
+  color: #555;
+}
+
+/* News Description */
+.news-description {
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 10px 0 20px;
+}
+
+/* Read More Button */
+.news-readmore {
+  background-color: #006A50;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.news-readmore:hover {
+  background-color: #005944;
+}
+
+
+
+/* Donate Section Container */
+.donate {
+  width: 80%;
+  max-width: 800px;
+  margin: 40px auto;
+  text-align: center;  /* Centers headings and buttons */
+}
+
+/* Section Title & Description */
+.donate h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+.donate-description {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+/* Container for Donation Options and Custom Input */
+.donate-amounts {
+  width: 100%;
+  max-width: 600px;       
+  margin: 0 auto 20px;    
+  text-align: center;     
+}
+
+/* Donation Options: Four Cards */
+.donate-options {
+  display: flex;
+  justify-content: center;  
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+/* Donation Amount Cards */
+.donate-card {
+  background-color: #FFFFFF;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  flex: 1;                
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-align: center;
+}
+.donate-card.highlight {
+  background-color: #C6E4D6;
+}
+
+/* Other Amount Input Card */
+.donate-other {
+  display: block;
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  font-size: 16px;
+  color: #888;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+/* Donate Now Button */
+.donate-now {
+  background-color: #006A50;
+  color: #fff;
+  border: none;
+  padding: 15px 30px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: block;
+  margin: 20px auto 0; 
+}
+.donate-now:hover {
+  background-color: #005944;
+}
+
+
+
+
+
+/* Outer Card */
+.subscribe-card {
+  background-color: #C6E4D6;
+  padding: 30px;
+  border-radius: 12px;
+  width: 80%;
+  max-width: 600px;
+  margin: 40px auto;
+  text-align: center;
+}
+
+/* Heading */
+.subscribe-card h2 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Description */
+.subscribe-description {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+/* Email Input and Subscribe Button */
+.subscribe-input-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+/* Email Input Field */
+.subscribe-input {
+  flex: 1;
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  outline: none;
+}
+
+/* Subscribe Button */
+.subscribe-button {
+  background-color: #006A50;
+  color: #fff;
+  border: none;
+  padding: 12px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.subscribe-button:hover {
+  background-color: #005944;
+}
+
+/* Spam Disclaimer */
+.subscribe-note {
+  font-size: 14px;
+  color: #666;
+  margin-top: 5px;
+}
+
+
+
+
+/* Footer Section */
+.footer {
+  background-color: #FFFFFF; /* Solid White */
+  padding: 20px;
+  text-align: center;
+  border-top: 1px solid #ddd; /* Light Separator */
+}
+
+/* Footer Title */
+.footer-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+/* Social Media Icons */
+.footer-socials {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.footer-socials img {
+  width: 24px;
+  height: 24px;
+  transition: opacity 0.3s ease;
+}
+
+.footer-socials img:hover {
+  opacity: 0.7;
+}
