@@ -130,7 +130,7 @@ background-color: #F5F5F5;
  .btn-primary {
     background-color: transparent;
     color: #00796b;
-    border: 1px solid #00796b; /* Sets a 2px solid border */
+    border: 1px solid #00796b; 
     padding: 15px 30px;
     font-size: 18px;
     font-weight: 700;
@@ -203,16 +203,150 @@ nav ul li a{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin: 0px 30px;
-    padding: 50px 30px;
+    /* gap: 40px; */
+    margin: 0px 0px;
+    padding: 0px 30px;
     background-color: transparent;
     border-radius: 50px;
-    margin-top: 50px;
+    margin-top: 20px;
     margin-bottom: 50px;
     font-size: 24px;
     text-align: left;
     
 }
+
+.pillars {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; 
+  justify-content: flex-end; 
+  height: 100%; 
+  margin-top: 15px; 
+}
+
+
+.pillars h2 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-left: 50px;
+  margin-bottom: 10px; 
+}
+
+.vision {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end; 
+  align-items: flex-start; 
+  height: 100%;
+  position: relative;
+  padding-bottom: 20px; 
+}
+
+.vision h2 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-left: 20px; 
+  margin-bottom: 10px; 
+  margin-left:50px;
+}
+
+.vision-description {
+  font-size: 16px;
+  color: rgba(14, 14, 14, 0.7);
+  margin: 10px 50px 20px 50px;  
+  text-align: left;
+  line-height: 1.5;
+}
+
+.vision-cards {
+  display: flex;
+  justify-content: space-between; 
+  align-items: stretch;           
+  gap: 20px;                     
+  width: 93%;                   
+  padding: 0px 50px;
+}
+
+
+
+.vision-card1,
+.vision-card2,
+.vision-card3 {
+  background-color: rgba(84, 144, 245, 0.2); 
+  border-radius: 16px;
+  text-align: left;           
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;                     
+  padding: 50px;              
+  box-sizing: border-box;
+}
+
+
+.vision-card2 {
+  background-color: rgba(198, 228, 214, 1);
+}
+
+.vision-card3 {
+  background-color: rgba(247, 235, 207, 1);
+}
+
+/* Title Styling */
+.vision-card1 h3,
+.vision-card2 h3,
+.vision-card3 h3 {
+  font-size: 20px;            
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+/* Subtitle/Text Styling */
+.visiontext {
+  font-size: 16px;            
+  text-align: left;          
+  margin: 10px 0;
+  padding: 5px;
+  border-radius: 8px;
+}
+
+/* Button Styling */
+.vbtn1,
+.vbtn2,
+.vbtn3 {
+  font-size: 16px;            
+  padding: 10px 20px;
+  border-radius: 12px;       
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  align-self: flex-start;     
+}
+
+.vbtn1 {
+  background-color: #5490F5;
+  color: white;
+}
+
+.vbtn2 {
+  background-color: #09A15C;
+  color: white;
+}
+
+.vbtn3 {
+  background-color: #FFC239;
+  color: rgb(255, 255, 255);
+}
+
+/* Image Styling for Vision Cards */
+.vision-card1 img,
+.vision-card2 img,
+.vision-card3 img {
+  width: 50px;               
+  height: auto;
+  margin-bottom: 10px;
+}
+
 
 .pillar-card {
     display: flex;
@@ -233,5 +367,128 @@ nav ul li a{
     align-self: flex-start;
 }
 
+/* Quote Card Container */
+.quote-card {
+  position: relative;          
+  display: flex;
+  
+  padding: 20px; 
+  margin: 0px 50px;
+  background-color: #fff;       
+  border-radius: 10px;        
+  overflow: hidden;              
+  box-sizing: border-box;
+}
 
+/* Background Image (Top Left) */
+.quote-bg {
+  position: absolute;            
+  top: 0;
+  left: 0;
+  margin-top: 0px;
+  margin-left: 20px;             
+  width: 60px;                  
+  height: auto;
+  opacity: 0.5;                  
+}
+
+/* Text Content */
+.quote-text {
+  position: relative;            
+  z-index: 1;                  
+  padding-left: 0px;           
+  
+}
+
+/* Styling the Quote */
+.quote-text blockquote {
+  font-size: 16px;              
+  margin: 0;
+  color: rgba(14, 14, 14, 0.7);   
+  font-style: italic;
+  line-height: 1.5;
+}
+
+/* Citation Styles */
+.cite {
+  display: block;
+  font-size: 20px;              
+  margin-top: 10px;
+  color: rgba(14, 14, 14, 0.7);
+  opacity: 0.7;
+}
+
+.small-text {
+  display: block;
+  margin-top: -5px; 
+  font-size: 14px; 
+}
+
+/* Overall Opinion Section */
+.opinion {
+  margin: 30px auto;
+  width: 80%;
+  text-align: left; 
+}
+
+.opinion h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+
+.opinion-card {
+  background: #fff;
+  border: 1px solid #ddd;    
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;             
+  margin-bottom: 20px;       
+}
+
+
+.opinion-table-wrapper {
+  width: 95%;                
+  margin: 0 auto;            
+}
+
+/* Table Styling */
+.opinion-table-wrapper table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* Table Header Styling */
+.opinion-table-wrapper thead tr {
+  background-color: #C6E4D6; 
+}
+
+.opinion-table-wrapper thead th {
+  padding: 12px;
+  font-size: 18px;
+  font-weight: bold;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+/* Table Body Styling */
+.opinion-table-wrapper tbody td {
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+/* Dropdown (Select) Styling */
+.opinion-select {
+  width: 100%;
+  padding: 8px 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  appearance: none;
+  cursor: pointer;
+  text-align: left;
+}
 
